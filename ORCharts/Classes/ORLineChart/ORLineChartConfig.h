@@ -60,6 +60,9 @@ typedef enum : NSUInteger {
 //inset of bottom label and chart content. default 10
 @property (nonatomic, assign) CGFloat bottomLabelInset;
 
+//top Height
+@property (nonatomic, assign) CGFloat topHeight;
+
 
 //show shadow line. default YES
 @property (nonatomic, assign) BOOL showShadowLine;

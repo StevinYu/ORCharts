@@ -58,6 +58,7 @@
 - (void)_or_initailizeUI{
     _label = ({
         UILabel *label = [UILabel new];
+        label.numberOfLines = 0;
         label;
     });
     [self addSubview:_label];

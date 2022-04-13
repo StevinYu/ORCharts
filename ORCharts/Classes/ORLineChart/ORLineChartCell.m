@@ -59,7 +59,7 @@
     self.titleLabel.frame = CGRectMake(0, self.bounds.size.height - height , width, height);
 
     UIBezierPath *path = [UIBezierPath bezierPath];
-    [path moveToPoint:CGPointMake(width * 0.5, 0)];
+    [path moveToPoint:CGPointMake(width * 0.5,  _config.topHeight)];
     [path addLineToPoint:CGPointMake(width * 0.5, self.bounds.size.height - height - _config.bottomLabelInset)];
     _lineLayer.path = path.CGPath;
 

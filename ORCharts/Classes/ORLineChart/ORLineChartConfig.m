@@ -41,6 +41,7 @@
     _topInset = 0;
     _contentMargin = 10;
     _leftWidth = 40;
+    _topHeight = 67;
 
     _bottomLabelWidth = 50;
     _bottomLabelInset = 10;
